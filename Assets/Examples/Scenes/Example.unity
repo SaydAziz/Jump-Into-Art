@@ -229,8 +229,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8066ed3b2e9e4c64f9c11142d910e9c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_EmulatorDevice: 1
-  m_BuildDevice: 2
+  BuildType: 3
+  EditorType: 3
 --- !u!114 &163395152
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -247,14 +247,17 @@ MonoBehaviour:
   m_AssetLookup: {fileID: 0}
   m_RootGameObjects: []
   m_FadeIn:
+    m_Fade: 1
     m_Color: {r: 0, g: 0, b: 0, a: 1}
     m_Duration: 2
   m_FadeOut:
+    m_Fade: 1
     m_Color: {r: 0, g: 0, b: 0, a: 1}
     m_Duration: 2
   LimappConfig:
     SavedProfile: {fileID: 0}
     ProfileToApply: {fileID: 0}
+    OverrideProfile: 0
 --- !u!4 &163395153
 Transform:
   m_ObjectHideFlags: 0
