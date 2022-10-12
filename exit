@@ -1,0 +1,250 @@
+[33mcommit e7d3b6de31194455d6dc1168092ec0c7a75dda35[m
+Author: JCDM122300 <55261863+JCDM122300@users.noreply.github.com>
+Date:   Fri Sep 30 21:19:38 2022 -0500
+
+    Created Basis for On Rails Movement
+    
+    Using Bezier Curves, the basis of the on rails movement was created. The routing script should be used for the empty "Route" game objects and these are responsible for keeping track of the different routes that the avatar will follow. Make sure to place the waypoint prefabs under the correct route game objects too to keep things organized. When placing the waypoints for the routes, make sure you adjust the size of the array of waypoints and then drag and drop each one you placed (IN NUMERICAL ORDER!!!!) into the inspector so the curve can be created properly. If done right, the Bezier Curve should be visualized by grey spheres and Moving said waypoints will adjust it. After the routes are complete, click the vr avatar and find the newly placed BezierFollow script in the inspector. Adjust the size of the routes array for how many you want to have and then place the route game objects that contain the waypoints into each slot (ALSO IN ORDER). If done right, the avatar will automatically move along the paths visualized. I already created two routes so you can see it in action here.
+
+D	Assets/Oculus/VR.meta
+A	Assets/Project Source/Scene Managment/BezierFollow.cs
+A	Assets/Project Source/Scene Managment/BezierFollow.cs.meta
+A	Assets/Project Source/Scene Managment/Routing.cs
+A	Assets/Project Source/Scene Managment/Routing.cs.meta
+M	Assets/Scenes/Main.unity
+
+[33mcommit c5bb24d6aa0fbde1ffdf08be999c6dfcd9a852bf[m
+Author: Aziz Saydaminov <sayd.aziz02@gmail.com>
+Date:   Fri Sep 30 14:42:12 2022 -0500
+
+    Imports first graybox of map, and creats waypoint prefab.
+
+D	Assets/Project Source/Movement System.meta
+R077	Assets/Examples/SerializableDictionary.meta	Assets/Project Source/PreFabs.meta
+A	Assets/Project Source/PreFabs/Waypoint.prefab
+R057	Assets/Oculus/VR/Editor.meta	Assets/Project Source/PreFabs/Waypoint.prefab.meta
+M	Assets/Project Source/Scene Managment.meta
+M	Assets/Project Source/Scene Managment/Waypoint.cs
+M	Assets/Scenes/Main.unity
+M	ProjectSettings/QualitySettings.asset
+
+[33mcommit e79754b0d2987a358f095c5627b60ed47409ad77[m
+Author: Aziz Saydaminov <sayd.aziz02@gmail.com>
+Date:   Thu Sep 29 18:28:13 2022 -0500
+
+    Adds custom Scene Managment system (bug check needed).
+
+A	Assets/Project Source/Scene Managment/SceneManager.cs
+A	Assets/Project Source/Scene Managment/SceneManager.cs.meta
+A	Assets/Project Source/Scene Managment/Waypoint.cs
+A	Assets/Project Source/Scene Managment/Waypoint.cs.meta
+M	Assets/Scenes/Main.unity
+A	Assets/TextMesh Pro.meta
+A	Assets/TextMesh Pro/Documentation.meta
+A	Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf
+A	Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf.meta
+A	Assets/TextMesh Pro/Fonts.meta
+A	Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt
+A	Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt.meta
+A	Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+A	Assets/TextMesh Pro/Fonts/LiberationSans.ttf.meta
+A	Assets/TextMesh Pro/Resources.meta
+A	Assets/TextMesh Pro/Resources/Fonts & Materials.meta
+A	Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+A	Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat.meta
+A	Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+A	Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset.meta
+A	Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+A	Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat.meta
+A	Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+A	Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset.meta
+A	Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt
+A	Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt.meta
+A	Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt
+A	Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt.meta
+A	Assets/TextMesh Pro/Resources/Shaders.meta
+A	Assets/TextMesh Pro/Resources/Shaders/TMP_Bitmap-Custom-Atlas.shader
+A	Assets/TextMesh Pro/Resources/Shaders/TMP_Bitmap-Custom-Atlas.shader.meta
+A	Assets/TextMesh Pro/Resources/Shaders/TMP_Bitmap-Mobile.shader
+A	Assets/TextMesh Pro/Resources/Shaders/TMP_Bitmap-Mobile.shader.meta
+A	Assets/TextMesh Pro/Resources/Shaders/TMP_Bitmap.shader
+A	Assets/TextMesh Pro/Resources/Shaders/TMP_Bitmap.shader.meta
+A	Assets/TextMesh Pro/Resources/Shaders/TMP_SDF Overlay.shader
+A	Assets/TextMesh Pro/Resources/Shaders/TMP_SDF Overlay.shader.meta
+A	Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Mobile Masking.shader
+A	Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Mobile Masking.shader.meta
+A	Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Mobile Overlay.shader
+A	Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Mobile Overlay.shader.meta
+A	Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Mobile.shader
+A	Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Mobile.shader.meta
+A	Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Surface-Mobile.shader
+A	Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Surface-Mobile.shader.meta
+A	Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Surface.shader
+A	Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Surface.shader.meta
+A	Assets/TextMesh Pro/Resources/Shaders/TMP_SDF.shader
+A	Assets/TextMesh Pro/Resources/Shaders/TMP_SDF.shader.meta
+A	Assets/TextMesh Pro/Resources/Shaders/TMP_Sprite.shader
+A	Assets/TextMesh Pro/Resources/Shaders/TMP_Sprite.shader.meta
+A	Assets/TextMesh Pro/Resources/Shaders/TMPro.cginc
+A	Assets/TextMesh Pro/Resources/Shaders/TMPro.cginc.meta
+A	Assets/TextMesh Pro/Resources/Shaders/TMPro_Properties.cginc
+A	Assets/TextMesh Pro/Resources/Shaders/TMPro_Properties.cginc.meta
+A	Assets/TextMesh Pro/Resources/Shaders/TMPro_Surface.cginc
+A	Assets/TextMesh Pro/Resources/Shaders/TMPro_Surface.cginc.meta
+A	Assets/TextMesh Pro/Resources/Sprite Assets.meta
+A	Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset
+A	Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset.meta
+A	Assets/TextMesh Pro/Resources/Style Sheets.meta
+A	Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset
+A	Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset.meta
+A	Assets/TextMesh Pro/Resources/TMP Settings.asset
+A	Assets/TextMesh Pro/Resources/TMP Settings.asset.meta
+A	Assets/TextMesh Pro/Sprites.meta
+A	Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt
+A	Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt.meta
+A	Assets/TextMesh Pro/Sprites/EmojiOne.json
+A	Assets/TextMesh Pro/Sprites/EmojiOne.json.meta
+A	Assets/TextMesh Pro/Sprites/EmojiOne.png
+A	Assets/TextMesh Pro/Sprites/EmojiOne.png.meta
+
+[33mcommit 1c72798e29b564ed1fcaa799a4bc422f8a8b3ea6[m
+Author: Aziz Saydaminov <sayd.aziz02@gmail.com>
+Date:   Mon Sep 26 18:09:50 2022 -0500
+
+    Added Scene and Movement work folders.
+
+M	Assets/Examples/Scenes/Example.unity
+M	Assets/Liminal/PlatformViewer/Scenes/PlatformAppViewer.unity
+A	Assets/Liminal/TemplateSetup/liminal_setup
+A	Assets/Liminal/TemplateSetup/liminal_setup.meta
+A	Assets/Liminal/liminalapp.json
+A	Assets/Liminal/liminalapp.json.meta
+R077	Assets/Examples/SerializableDictionary/Editor.meta	Assets/Project Source.meta
+R077	Assets/Oculus/VR/Editor/Tools.meta	Assets/Project Source/Movement System.meta
+R077	Assets/Resources.meta	Assets/Project Source/Scene Managment.meta
+M	Assets/Scenes/Main.unity
+M	Assets/Scenes/Main.unity.meta
+A	Assets/StreamingAssets.meta
+A	Assets/StreamingAssets/SteamVR.meta
+A	Assets/StreamingAssets/SteamVR/actions.json
+A	Assets/StreamingAssets/SteamVR/actions.json.meta
+A	Assets/StreamingAssets/SteamVR/binding_holographic_hmd.json
+A	Assets/StreamingAssets/SteamVR/binding_holographic_hmd.json.meta
+A	Assets/StreamingAssets/SteamVR/binding_index_hmd.json
+A	Assets/StreamingAssets/SteamVR/binding_index_hmd.json.meta
+A	Assets/StreamingAssets/SteamVR/binding_rift.json
+A	Assets/StreamingAssets/SteamVR/binding_rift.json.meta
+A	Assets/StreamingAssets/SteamVR/binding_vive.json
+A	Assets/StreamingAssets/SteamVR/binding_vive.json.meta
+A	Assets/StreamingAssets/SteamVR/binding_vive_cosmos.json
+A	Assets/StreamingAssets/SteamVR/binding_vive_cosmos.json.meta
+A	Assets/StreamingAssets/SteamVR/binding_vive_pro.json
+A	Assets/StreamingAssets/SteamVR/binding_vive_pro.json.meta
+A	Assets/StreamingAssets/SteamVR/binding_vive_tracker_camera.json
+A	Assets/StreamingAssets/SteamVR/binding_vive_tracker_camera.json.meta
+A	Assets/StreamingAssets/SteamVR/bindings_holographic_controller.json
+A	Assets/StreamingAssets/SteamVR/bindings_holographic_controller.json.meta
+A	Assets/StreamingAssets/SteamVR/bindings_knuckles.json
+A	Assets/StreamingAssets/SteamVR/bindings_knuckles.json.meta
+A	Assets/StreamingAssets/SteamVR/bindings_oculus_touch.json
+A	Assets/StreamingAssets/SteamVR/bindings_oculus_touch.json.meta
+A	Assets/StreamingAssets/SteamVR/bindings_vive_controller.json
+A	Assets/StreamingAssets/SteamVR/bindings_vive_controller.json.meta
+A	Assets/StreamingAssets/SteamVR/bindings_vive_cosmos_controller.json
+A	Assets/StreamingAssets/SteamVR/bindings_vive_cosmos_controller.json.meta
+M	Assets/_Builds/Config/BuildWindowConfig.json
+A	Assets/_Builds/app_999_emulator_v1.limapp
+A	Assets/_Builds/app_999_emulator_v1.limapp.meta
+M	Packages/manifest.json
+M	ProjectSettings/GraphicsSettings.asset
+M	ProjectSettings/ProjectSettings.asset
+
+[33mcommit 93a350119a7a26eb3c1283ff934835c2a793eff7[m
+Author: Saidazizkhon Saydaminov <73756721+SaydAziz@users.noreply.github.com>
+Date:   Sat Sep 17 11:39:07 2022 -0500
+
+    Initial commit
+
+A	.gitignore
+A	.vsconfig
+A	Assets/Examples.meta
+A	Assets/Examples/Prefabs.meta
+A	Assets/Examples/Prefabs/Interactable.prefab
+A	Assets/Examples/Prefabs/Interactable.prefab.meta
+A	Assets/Examples/Prefabs/VRCanvas.prefab
+A	Assets/Examples/Prefabs/VRCanvas.prefab.meta
+A	Assets/Examples/Scenes.meta
+A	Assets/Examples/Scenes/ControllerInput.unity
+A	Assets/Examples/Scenes/ControllerInput.unity.meta
+A	Assets/Examples/Scenes/Example.unity
+A	Assets/Examples/Scenes/Example.unity.meta
+A	Assets/Examples/Scripts.meta
+A	Assets/Examples/Scripts/Examples.cs
+A	Assets/Examples/Scripts/Examples.cs.meta
+A	Assets/Examples/Scripts/Interactable.cs
+A	Assets/Examples/Scripts/Interactable.cs.meta
+A	Assets/Examples/SerializableDictionary.meta
+A	Assets/Examples/SerializableDictionary/Editor.meta
+A	Assets/Liminal.meta
+A	Assets/Liminal/MyExperienceApp.cs
+A	Assets/Liminal/MyExperienceApp.cs.meta
+A	Assets/Liminal/PlatformViewer.meta
+A	Assets/Liminal/PlatformViewer/Scenes.meta
+A	Assets/Liminal/PlatformViewer/Scenes/PlatformAppViewer.unity
+A	Assets/Liminal/PlatformViewer/Scenes/PlatformAppViewer.unity.meta
+A	Assets/Liminal/Resources.meta
+A	Assets/Liminal/Resources/OVRConfig.asset
+A	Assets/Liminal/Resources/OVRConfig.asset.meta
+A	Assets/Liminal/Resources/OculusProjectConfig.asset
+A	Assets/Liminal/Resources/OculusProjectConfig.asset.meta
+A	Assets/Liminal/TemplateSetup.meta
+A	Assets/Liminal/TemplateSetup/Editor.meta
+A	Assets/Liminal/TemplateSetup/Editor/TemplateSetup.cs
+A	Assets/Liminal/TemplateSetup/Editor/TemplateSetup.cs.meta
+A	Assets/Liminal/TemplateSetup/Editor/TemplateSetupHomePage.cs
+A	Assets/Liminal/TemplateSetup/Editor/TemplateSetupHomePage.cs.meta
+A	Assets/Liminal/TemplateSetup/Editor/TemplateSetupInfoPage.cs
+A	Assets/Liminal/TemplateSetup/Editor/TemplateSetupInfoPage.cs.meta
+A	Assets/Liminal/TemplateSetup/Editor/TemplateSetupNamePage.cs
+A	Assets/Liminal/TemplateSetup/Editor/TemplateSetupNamePage.cs.meta
+A	Assets/Liminal/TemplateSetup/Editor/TemplateSetupPage.cs
+A	Assets/Liminal/TemplateSetup/Editor/TemplateSetupPage.cs.meta
+A	Assets/Liminal/TemplateSetup/Editor/TemplateSetupWindow.cs
+A	Assets/Liminal/TemplateSetup/Editor/TemplateSetupWindow.cs.meta
+A	Assets/Liminal/TemplateSetup/Editor/Util.cs
+A	Assets/Liminal/TemplateSetup/Editor/Util.cs.meta
+A	Assets/Liminal/TemplateSetup/LiminalTemplateIcon.png
+A	Assets/Liminal/TemplateSetup/LiminalTemplateIcon.png.meta
+A	Assets/Oculus.meta
+A	Assets/Oculus/VR.meta
+A	Assets/Oculus/VR/Editor.meta
+A	Assets/Oculus/VR/Editor/Tools.meta
+A	Assets/Resources.meta
+A	Assets/Scenes.meta
+A	Assets/Scenes/Main.unity
+A	Assets/Scenes/Main.unity.meta
+A	Assets/_Builds.meta
+A	Assets/_Builds/Config.meta
+A	Assets/_Builds/Config/BuildWindowConfig.json
+A	Assets/_Builds/Config/BuildWindowConfig.json.meta
+A	Logs/Packages-Update.log
+A	Packages/manifest.json
+A	ProjectSettings/AudioManager.asset
+A	ProjectSettings/ClusterInputManager.asset
+A	ProjectSettings/DynamicsManager.asset
+A	ProjectSettings/EditorBuildSettings.asset
+A	ProjectSettings/EditorSettings.asset
+A	ProjectSettings/GraphicsSettings.asset
+A	ProjectSettings/InputManager.asset
+A	ProjectSettings/NavMeshAreas.asset
+A	ProjectSettings/Physics2DSettings.asset
+A	ProjectSettings/PresetManager.asset
+A	ProjectSettings/ProjectSettings.asset
+A	ProjectSettings/ProjectVersion.txt
+A	ProjectSettings/QualitySettings.asset
+A	ProjectSettings/TagManager.asset
+A	ProjectSettings/TimeManager.asset
+A	ProjectSettings/UnityConnectSettings.asset
+A	ProjectSettings/VFXManager.asset
+A	ProjectSettings/XRSettings.asset
+A	README.md
