@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 1899000467774710626}
   - component: {fileID: -6421028727654031769}
   - component: {fileID: 2195625764698423814}
+  - component: {fileID: 8630817893535985421}
   m_Layer: 0
   m_Name: TestOne
   m_TagString: Untagged
@@ -142,3 +143,18 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!111 &8630817893535985421
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1899000467774710631}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations: []
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
