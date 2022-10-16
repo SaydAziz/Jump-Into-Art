@@ -17,6 +17,9 @@ public class BezierFollow : MonoBehaviour
 
     private bool coroutineAllowed;
 
+    [SerializeField]
+    private bool isMoving; 
+
     // Start is called before the first frame update
     void Start()
     {
@@ -24,6 +27,7 @@ public class BezierFollow : MonoBehaviour
         tParam = 0f;
         speedModifier = 0.1f;
         coroutineAllowed = true;
+        isMoving = false; 
     }
 
     // Update is called once per frame
@@ -32,7 +36,13 @@ public class BezierFollow : MonoBehaviour
         if (coroutineAllowed)
         {
             StartCoroutine(GoByTheRoute(routeToGo));
+            isMoving = true;
         }
+        if (isMoving)
+        {
+
+        }
+
     }
 
     private IEnumerator GoByTheRoute(int routeNum)
@@ -58,10 +68,11 @@ public class BezierFollow : MonoBehaviour
         speedModifier = speedModifier * 0.90f;
         routeToGo += 1;
 
-        if (routeToGo > routes.Length - 1)
+        /*if (routeToGo > routes.Length - 1)
         {
             routeToGo = 0;
-        }
+        }*/ //commented this out so that the avatar doesn't go back to the beginning of the routes again
+
 
         coroutineAllowed = true;
 
