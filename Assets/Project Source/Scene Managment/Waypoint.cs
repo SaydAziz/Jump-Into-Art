@@ -19,6 +19,8 @@ public class Waypoint : MonoBehaviour
                 SceneManager.Instance.CycleNextScene();
             }
         }
+
+    
         
         
     }

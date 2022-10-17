@@ -5,15 +5,15 @@ using UnityEngine;
 public class EventManagement : MonoBehaviour
 {
     // The time that the event is delayed
-    float delayTime;
+    //float delayTime;
 
     //  The time it takes for the event to take place
-    float eventTime;
+    //float eventTime;
 
     // The total of the event time and the delay time.
-    float totalTime;
+    //float totalTime;
 
-    bool pauseMovement = false;
+    //bool pauseMovement = false;
 
 
     // Start is called before the first frame update
