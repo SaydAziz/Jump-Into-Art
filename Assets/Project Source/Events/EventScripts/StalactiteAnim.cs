@@ -4,18 +4,20 @@ using UnityEngine;
 
 public class StalactiteAnim : MonoBehaviour
 {
-    [SerializeField] private Animator MyAnimationController;
+    private Animation anim;
+    [SerializeField] string eventName = "Stalactite Event";
 
-    private void OnTriggerEnter(Collider other)
+    // Start is called before the first frame update
+    void Start()
     {
-        if (other.CompareTag("Player"))
-        {
-            //Changes boolean to true to start animation
-            MyAnimationController.SetBool("S_AnimOne", true);
-            MyAnimationController.SetBool("S_AnimTwo", true);
-            MyAnimationController.SetBool("S_AnimThree", true);
-            MyAnimationController.SetBool("S_AnimFour", true);
-            MyAnimationController.SetBool("S_AnimFive", true);
-        }
+        anim = gameObject.GetComponent<Animation>();
+    }
+
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+
     }
 }
