@@ -4890,7 +4890,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: -0.000000029802322, y: 0, z: 0, w: 0.000000029802322}
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -12390,7 +12390,7 @@ Light:
   m_Enabled: 1
   serializedVersion: 9
   m_Type: 1
-  m_Color: {r: 1, g: 0.90233856, b: 0.8349056, a: 0.7254902}
+  m_Color: {r: 1, g: 0.89338654, b: 0.7028302, a: 0.7254902}
   m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
@@ -14912,6 +14912,86 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -444521105353760620, guid: 1c78421a44ce7a547b13d1eef2aea8da,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -444521105353760620, guid: 1c78421a44ce7a547b13d1eef2aea8da,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -444521105353760620, guid: 1c78421a44ce7a547b13d1eef2aea8da,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -444521105353760620, guid: 1c78421a44ce7a547b13d1eef2aea8da,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: -444521105353760620, guid: 1c78421a44ce7a547b13d1eef2aea8da,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -444521105353760620, guid: 1c78421a44ce7a547b13d1eef2aea8da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -444521105353760620, guid: 1c78421a44ce7a547b13d1eef2aea8da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1617365279978105996, guid: 1c78421a44ce7a547b13d1eef2aea8da,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071069
+      objectReference: {fileID: 0}
+    - target: {fileID: -1617365279978105996, guid: 1c78421a44ce7a547b13d1eef2aea8da,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.000000001113353
+      objectReference: {fileID: 0}
+    - target: {fileID: -1617365279978105996, guid: 1c78421a44ce7a547b13d1eef2aea8da,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.0000000051711515
+      objectReference: {fileID: 0}
+    - target: {fileID: -1617365279978105996, guid: 1c78421a44ce7a547b13d1eef2aea8da,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: -1617365279978105996, guid: 1c78421a44ce7a547b13d1eef2aea8da,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.00000005931082
+      objectReference: {fileID: 0}
+    - target: {fileID: -1617365279978105996, guid: 1c78421a44ce7a547b13d1eef2aea8da,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.000000013830115
+      objectReference: {fileID: 0}
+    - target: {fileID: -1617365279978105996, guid: 1c78421a44ce7a547b13d1eef2aea8da,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.000000038211898
+      objectReference: {fileID: 0}
+    - target: {fileID: -1617365279978105996, guid: 1c78421a44ce7a547b13d1eef2aea8da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1617365279978105996, guid: 1c78421a44ce7a547b13d1eef2aea8da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1c78421a44ce7a547b13d1eef2aea8da, type: 3}
