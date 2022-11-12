@@ -1704,6 +1704,7 @@ GameObject:
   - component: {fileID: 97180626}
   - component: {fileID: 97180628}
   - component: {fileID: 97180627}
+  - component: {fileID: 97180629}
   m_Layer: 0
   m_Name: SecondHalfCave
   m_TagString: Untagged
@@ -1773,6 +1774,39 @@ Terrain:
   m_LightmapParameters: {fileID: 15203, guid: 0000000000000000f000000000000000, type: 0}
   m_GroupingID: 0
   m_AllowAutoConnect: 1
+--- !u!215 &97180629
+ReflectionProbe:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 97180625}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Type: 0
+  m_Mode: 0
+  m_RefreshMode: 0
+  m_TimeSlicingMode: 0
+  m_Resolution: 128
+  m_UpdateFrequency: 0
+  m_BoxSize: {x: 10, y: 10, z: 10}
+  m_BoxOffset: {x: 0, y: 0, z: 0}
+  m_NearClip: 0.3
+  m_FarClip: 1000
+  m_ShadowDistance: 100
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IntensityMultiplier: 0
+  m_BlendDistance: 1
+  m_HDR: 0
+  m_BoxProjection: 0
+  m_RenderDynamicObjects: 0
+  m_UseOcclusionCulling: 0
+  m_Importance: 1
+  m_CustomBakedTexture: {fileID: 0}
 --- !u!1 &98048472
 GameObject:
   m_ObjectHideFlags: 0
@@ -11949,11 +11983,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 640173352}
   m_LocalRotation: {x: 0.5172371, y: -0.39503837, z: -0.45519188, w: 0.6076272}
-  m_LocalPosition: {x: 73.1, y: 11.97, z: -58.62}
-  m_LocalScale: {x: 1, y: 0.94325, z: 1}
+  m_LocalPosition: {x: 31.98322, y: -13.293435, z: -40.740486}
+  m_LocalScale: {x: 1, y: 0.94325036, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_Father: {fileID: 953808485}
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 164.399, y: 99.13, z: 93.006996}
 --- !u!1 &640294160
 GameObject:
@@ -17266,6 +17300,7 @@ GameObject:
   - component: {fileID: 907183038}
   - component: {fileID: 907183040}
   - component: {fileID: 907183039}
+  - component: {fileID: 907183041}
   m_Layer: 0
   m_Name: BigCavern
   m_TagString: Untagged
@@ -17335,6 +17370,39 @@ Terrain:
   m_LightmapParameters: {fileID: 15203, guid: 0000000000000000f000000000000000, type: 0}
   m_GroupingID: 0
   m_AllowAutoConnect: 1
+--- !u!215 &907183041
+ReflectionProbe:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 907183037}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Type: 0
+  m_Mode: 0
+  m_RefreshMode: 0
+  m_TimeSlicingMode: 0
+  m_Resolution: 128
+  m_UpdateFrequency: 0
+  m_BoxSize: {x: 10, y: 10, z: 10}
+  m_BoxOffset: {x: 0, y: 0, z: 0}
+  m_NearClip: 0.3
+  m_FarClip: 1000
+  m_ShadowDistance: 100
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IntensityMultiplier: 0
+  m_BlendDistance: 1
+  m_HDR: 0
+  m_BoxProjection: 0
+  m_RenderDynamicObjects: 0
+  m_UseOcclusionCulling: 0
+  m_Importance: 1
+  m_CustomBakedTexture: {fileID: 0}
 --- !u!1001 &911147153
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18470,6 +18538,7 @@ Transform:
   - {fileID: 488522435}
   - {fileID: 158013443}
   - {fileID: 1184645675}
+  - {fileID: 640173354}
   m_Father: {fileID: 640294161}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -45910,6 +45979,7 @@ GameObject:
   - component: {fileID: 1947947335}
   - component: {fileID: 1947947337}
   - component: {fileID: 1947947336}
+  - component: {fileID: 1947947338}
   m_Layer: 0
   m_Name: FirstHalfCave
   m_TagString: Untagged
@@ -45979,6 +46049,39 @@ Terrain:
   m_LightmapParameters: {fileID: 15203, guid: 0000000000000000f000000000000000, type: 0}
   m_GroupingID: 0
   m_AllowAutoConnect: 1
+--- !u!215 &1947947338
+ReflectionProbe:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1947947334}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Type: 0
+  m_Mode: 0
+  m_RefreshMode: 0
+  m_TimeSlicingMode: 0
+  m_Resolution: 128
+  m_UpdateFrequency: 0
+  m_BoxSize: {x: 10, y: 10, z: 10}
+  m_BoxOffset: {x: 0, y: 0, z: 0}
+  m_NearClip: 0.3
+  m_FarClip: 1000
+  m_ShadowDistance: 100
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IntensityMultiplier: 0
+  m_BlendDistance: 1
+  m_HDR: 0
+  m_BoxProjection: 0
+  m_RenderDynamicObjects: 0
+  m_UseOcclusionCulling: 0
+  m_Importance: 1
+  m_CustomBakedTexture: {fileID: 0}
 --- !u!1001 &1955827917
 PrefabInstance:
   m_ObjectHideFlags: 0
