@@ -4,19 +4,19 @@ using UnityEngine;
 
 public class StalactiteAnim : MonoBehaviour
 {
-    [SerializeField] private Animator AnimationControllerOne, AnimationControllerTwo, AnimationControllerThree, AnimationControllerFour, AnimationControllerFive;
-    
+    [SerializeField] private Animator AnimationController;
+
 
     private void OnTriggerEnter(Collider other)
     {
+        float fall = Input.GetAxis("Vertical");
+        AnimationController.SetFloat("Speed", fall);
+
         if (other.CompareTag("Player"))
         {
             //Changes boolean to true to start animation
-            AnimationControllerOne.SetBool("PlayStalactite", true);
-            AnimationControllerTwo.SetBool("PlayStalactite", true);
-            AnimationControllerThree.SetBool("PlayStalactite", true);
-            AnimationControllerFour.SetBool("PlayStalactite", true);
-            AnimationControllerFive.SetBool("PlayStalactite", true);
+            AnimationController.SetBool("PlayStalactite", true);
         }
+
     }
 }
