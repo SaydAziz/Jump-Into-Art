@@ -8,6 +8,7 @@ public class WhaleEventSpawn : MonoBehaviour
 
     //Variable to Hold Animation Controller
     [SerializeField] private Animator MyAnimationController;
+    [SerializeField] private AudioSource clip;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -15,6 +16,7 @@ public class WhaleEventSpawn : MonoBehaviour
         {
             //Changes boolean to true to start animation
             MyAnimationController.SetBool("PlayWhale", true);
+            SoundManager.Instance.PlaySound(clip);
         }
        
     }
