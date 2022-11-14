@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class WhaleEventSpawn : MonoBehaviour
+public class EventTrigger : MonoBehaviour
 {
     //Trigger Event
 
@@ -15,7 +15,7 @@ public class WhaleEventSpawn : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             //Changes boolean to true to start animation
-            MyAnimationController.SetBool("PlayWhale", true);
+            MyAnimationController.SetBool("isPlaying", true);
             SoundManager.Instance.PlaySound(clip);
         }
        
