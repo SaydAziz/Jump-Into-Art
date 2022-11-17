@@ -15,11 +15,27 @@ public class BezierFollow : MonoBehaviour
 
     private float speedModifier;
 
+    private float tempSpeedModifier;
+
     private bool coroutineAllowed;
 
     [SerializeField]
-    private bool isMoving; 
+    private bool isMoving;
 
+    private void OnEnable()
+    {
+        
+    }
+    private void OnPause()
+    {
+        tempSpeedModifier = speedModifier;
+        speedModifier = 0;
+    }
+
+    private void OnResume()
+    {
+        speedModifier = tempSpeedModifier;
+    }
     // Start is called before the first frame update
     void Start()
     {
