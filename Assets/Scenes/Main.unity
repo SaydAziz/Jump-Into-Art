@@ -20,9 +20,9 @@ RenderSettings:
   m_FogDensity: 0.01
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
-  m_AmbientSkyColor: {r: 0.9056604, g: 0.47298706, b: 0.13243146, a: 1}
-  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
-  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientSkyColor: {r: 0.9622642, g: 0.6049057, b: 0.32226774, a: 1}
+  m_AmbientEquatorColor: {r: 0, g: 0, b: 0, a: 1}
+  m_AmbientGroundColor: {r: 0.33962262, g: 0.33481663, b: 0.32520467, a: 1}
   m_AmbientIntensity: 0.413
   m_AmbientMode: 1
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
@@ -35,10 +35,10 @@ RenderSettings:
   m_DefaultReflectionMode: 0
   m_DefaultReflectionResolution: 128
   m_ReflectionBounces: 1
-  m_ReflectionIntensity: 0.293
+  m_ReflectionIntensity: 0
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.4993496, g: 0.31386116, b: 0.059052482, a: 0.293}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 0}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -96,8 +96,7 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaAO: 1
     m_ShowResolutionOverlay: 1
     m_ExportTrainingData: 0
-  m_LightingDataAsset: {fileID: 112000000, guid: 5af617201d070d44e903de0b1bcdaa77,
-    type: 2}
+  m_LightingDataAsset: {fileID: 0}
   m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
@@ -435,6 +434,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock3(Textured) (4)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: c128502a9a864f046a3df8e27472fb4e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: c128502a9a864f046a3df8e27472fb4e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -545,7 +549,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &16536224
 Transform:
@@ -611,7 +615,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -765,37 +769,6 @@ Transform:
   m_Father: {fileID: 1963080509}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &38703216
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 1981430403}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 38703217}
-  m_Layer: 0
-  m_Name: MANTARAY(uv) (Missing Prefab)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &38703217
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 1981430403}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 38703216}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1981430404}
-  m_Father: {fileID: 1795113850}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &39029987
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -918,6 +891,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Rock3(Textured) (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: c128502a9a864f046a3df8e27472fb4e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: c128502a9a864f046a3df8e27472fb4e,
         type: 3}
@@ -1325,7 +1303,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &65427687
 Transform:
@@ -1352,6 +1330,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Crystal1(uv)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 7eaf7f364c6228349b8f098fdebe3c37,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 7eaf7f364c6228349b8f098fdebe3c37,
         type: 3}
@@ -1647,7 +1630,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &71209015
 Transform:
@@ -1865,7 +1848,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &98048473
 Transform:
@@ -2717,6 +2700,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Crystal7(uv) (2)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d1b4d0f4867bbb84fb074b355da8ab33,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: d1b4d0f4867bbb84fb074b355da8ab33,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2809,7 +2797,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &158013443
 Transform:
@@ -3048,6 +3036,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Rock3(Textured) (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: c128502a9a864f046a3df8e27472fb4e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: c128502a9a864f046a3df8e27472fb4e,
         type: 3}
@@ -3683,7 +3676,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &232875373
 Transform:
@@ -4295,6 +4288,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ruin3(Textured)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: eb83a1ecd7711df4ba649834f98b5c73,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: -891710354221879104, guid: eb83a1ecd7711df4ba649834f98b5c73,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: eb83a1ecd7711df4ba649834f98b5c73,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4392,7 +4395,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &263121698
 Transform:
@@ -4489,7 +4492,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &266734920
 Transform:
@@ -4580,7 +4583,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &267160261
 Transform:
@@ -4994,7 +4997,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &279777240
 Transform:
@@ -5729,7 +5732,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!108 &290299043
 Light:
@@ -5781,7 +5784,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -5922,7 +5925,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!108 &293202597
 Light:
@@ -5974,7 +5977,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -6009,6 +6012,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: STARFISH(uv)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 23eddefbb0841244b892ba64e1fdbb21,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 23eddefbb0841244b892ba64e1fdbb21,
         type: 3}
@@ -6648,6 +6656,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Crystal2(uv) (1)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 6bd726f055efb034fa9b770247d7204a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 6bd726f055efb034fa9b770247d7204a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6746,7 +6759,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &342651996
 Transform:
@@ -7235,7 +7248,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &363020177
 Transform:
@@ -7395,7 +7408,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &377415616
 Transform:
@@ -7812,6 +7825,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Ruin2(Textured)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: bfe60705de8ae5f43931ae972d05f1d7,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 346909462468842504, guid: bfe60705de8ae5f43931ae972d05f1d7,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: bfe60705de8ae5f43931ae972d05f1d7,
         type: 3}
@@ -9071,7 +9094,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &467260662
 Transform:
@@ -9297,6 +9320,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock1(Textured)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d825766c5ccd35c4a8491d613ca97af0,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: d825766c5ccd35c4a8491d613ca97af0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9396,6 +9424,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Crystal7(uv)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d1b4d0f4867bbb84fb074b355da8ab33,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: d1b4d0f4867bbb84fb074b355da8ab33,
         type: 3}
@@ -9611,7 +9644,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &488522435
 Transform:
@@ -9698,6 +9731,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Rock3(Textured) (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: c128502a9a864f046a3df8e27472fb4e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: c128502a9a864f046a3df8e27472fb4e,
         type: 3}
@@ -10786,7 +10824,7 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: 6bd726f055efb034fa9b770247d7204a,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 0
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 6bd726f055efb034fa9b770247d7204a,
         type: 3}
@@ -11403,7 +11441,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &592361511
 Transform:
@@ -11724,6 +11762,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Crystal7(uv) (3)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d1b4d0f4867bbb84fb074b355da8ab33,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: d1b4d0f4867bbb84fb074b355da8ab33,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -11921,7 +11964,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &623083006
 Transform:
@@ -11987,7 +12030,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -12100,7 +12143,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!108 &640173353
 Light:
@@ -12593,6 +12636,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock3(Textured) (10)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: c128502a9a864f046a3df8e27472fb4e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: c128502a9a864f046a3df8e27472fb4e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -12983,6 +13031,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Crystal7(uv) (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d1b4d0f4867bbb84fb074b355da8ab33,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: d1b4d0f4867bbb84fb074b355da8ab33,
         type: 3}
@@ -13395,7 +13448,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &690773846
 Transform:
@@ -13461,7 +13514,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -13594,6 +13647,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock1(Textured) 1 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 5e311c916a69fa844a974ffb8cbf304b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 5e311c916a69fa844a974ffb8cbf304b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -13669,6 +13727,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 073d655536f4fbc48b0c2f245d79f6dc, type: 2}
+    - target: {fileID: -1504981713932161579, guid: 5e311c916a69fa844a974ffb8cbf304b,
+        type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: b78329df234ac064cb4ccd6c638c153e, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e311c916a69fa844a974ffb8cbf304b, type: 3}
 --- !u!4 &700288115 stripped
@@ -13810,16 +13873,16 @@ Light:
   serializedVersion: 9
   m_Type: 1
   m_Color: {r: 1, g: 0.9252925, b: 0.7028302, a: 0.7254902}
-  m_Intensity: 1.54
+  m_Intensity: 0.94
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 2
+    m_Type: 1
     m_Resolution: -1
     m_CustomResolution: -1
-    m_Strength: 0.774
+    m_Strength: 0.62
     m_Bias: 2
     m_NormalBias: 0
     m_NearPlane: 0.1
@@ -13852,7 +13915,7 @@ Light:
   m_Lightmapping: 1
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
-  m_BounceIntensity: 1
+  m_BounceIntensity: 3.3
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
@@ -14616,7 +14679,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &738644703
 Transform:
@@ -14821,6 +14884,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock3(Textured) (1)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: c128502a9a864f046a3df8e27472fb4e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: c128502a9a864f046a3df8e27472fb4e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -14949,7 +15017,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &763877372
 Transform:
@@ -15210,6 +15278,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Rock3(Textured) (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: c128502a9a864f046a3df8e27472fb4e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: c128502a9a864f046a3df8e27472fb4e,
         type: 3}
@@ -16277,7 +16350,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &879742916
 Transform:
@@ -16481,6 +16554,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Rock3(Textured)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: c128502a9a864f046a3df8e27472fb4e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: c128502a9a864f046a3df8e27472fb4e,
         type: 3}
@@ -17006,6 +17084,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock2(Textured) (2)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: b9d7bda1fafb38f49aa5a8808697cc55,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: b9d7bda1fafb38f49aa5a8808697cc55,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -17081,6 +17164,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 377c5a0cec136694798612e8dc16f332, type: 2}
+    - target: {fileID: -1504981713932161579, guid: b9d7bda1fafb38f49aa5a8808697cc55,
+        type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: b78329df234ac064cb4ccd6c638c153e, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b9d7bda1fafb38f49aa5a8808697cc55, type: 3}
 --- !u!4 &911404127 stripped
@@ -17515,6 +17603,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock3(Textured) (1)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: c128502a9a864f046a3df8e27472fb4e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: c128502a9a864f046a3df8e27472fb4e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -17755,6 +17848,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cactus2(Textured)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: f01ab06b22d05714d8046d1e3b0d04fa,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: f01ab06b22d05714d8046d1e3b0d04fa,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -17957,7 +18055,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &934134393
 Transform:
@@ -18216,6 +18314,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ruin1(Textured) (1)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: e8d439097b776d4499e0456c20c29fbe,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 346909462468842504, guid: e8d439097b776d4499e0456c20c29fbe,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: e8d439097b776d4499e0456c20c29fbe,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -18309,6 +18417,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Crystal6(uv)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: f084b0381f4fb2849840df7a68ac5671,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: f084b0381f4fb2849840df7a68ac5671,
         type: 3}
@@ -18724,6 +18837,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SHELL1 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 304192692b5a25946984d2be9f59f28a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 304192692b5a25946984d2be9f59f28a,
         type: 3}
@@ -19345,6 +19463,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: STARFISH(uv) (1)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 23eddefbb0841244b892ba64e1fdbb21,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 23eddefbb0841244b892ba64e1fdbb21,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -19691,7 +19814,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &990504835
 Transform:
@@ -19757,7 +19880,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -19999,6 +20122,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SHELL1 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 304192692b5a25946984d2be9f59f28a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 304192692b5a25946984d2be9f59f28a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -20096,7 +20224,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1006258828
 Transform:
@@ -20162,7 +20290,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -20183,6 +20311,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Crystal6(uv) (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: f084b0381f4fb2849840df7a68ac5671,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: f084b0381f4fb2849840df7a68ac5671,
         type: 3}
@@ -20579,6 +20712,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Crystal3(uv) (1)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d3bdd6620eff2384e850b798f2a27474,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: d3bdd6620eff2384e850b798f2a27474,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -20707,7 +20845,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1066343424
 Transform:
@@ -20828,7 +20966,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1066759458
 Transform:
@@ -20894,7 +21032,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -21238,6 +21376,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock1(Textured) (3)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d825766c5ccd35c4a8491d613ca97af0,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: d825766c5ccd35c4a8491d613ca97af0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -21527,7 +21670,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 28d2d0d29c7a3bf49bf0b6a1512c22ca,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.26059723
+      value: 0.545
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 28d2d0d29c7a3bf49bf0b6a1512c22ca,
         type: 3}
@@ -21537,7 +21680,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 28d2d0d29c7a3bf49bf0b6a1512c22ca,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2.7689362
+      value: 2.021
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 28d2d0d29c7a3bf49bf0b6a1512c22ca,
         type: 3}
@@ -21623,6 +21766,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Rock2(Textured) (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: b9d7bda1fafb38f49aa5a8808697cc55,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: b9d7bda1fafb38f49aa5a8808697cc55,
         type: 3}
@@ -21811,22 +21959,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1115055490}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1115252149
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 1981430403}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1981430404}
-  m_Layer: 0
-  m_Name: Missing Prefab (Dummy)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!1001 &1122246318
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21838,6 +21970,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: CRYSTAL3 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 2684099dbb0c7d144a54fd8f5fa4d225,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 2684099dbb0c7d144a54fd8f5fa4d225,
         type: 3}
@@ -22447,7 +22584,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1134872667
 Transform:
@@ -23042,7 +23179,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!108 &1153069065
 Light:
@@ -23094,7 +23231,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -23539,7 +23676,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1184645675
 Transform:
@@ -23781,7 +23918,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1208601230
 Transform:
@@ -23868,6 +24005,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Crystal3(uv) (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d3bdd6620eff2384e850b798f2a27474,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: d3bdd6620eff2384e850b798f2a27474,
         type: 3}
@@ -24063,6 +24205,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Crystal2(uv) (2)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 6bd726f055efb034fa9b770247d7204a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 6bd726f055efb034fa9b770247d7204a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -24151,6 +24298,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Ruin1(Textured)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: e8d439097b776d4499e0456c20c29fbe,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 346909462468842504, guid: e8d439097b776d4499e0456c20c29fbe,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: e8d439097b776d4499e0456c20c29fbe,
         type: 3}
@@ -24556,7 +24713,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1235896329
 Transform:
@@ -24743,6 +24900,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: CRYSTAL3
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 2684099dbb0c7d144a54fd8f5fa4d225,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 2684099dbb0c7d144a54fd8f5fa4d225,
         type: 3}
@@ -24938,6 +25100,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock1(Textured) 1
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 5e311c916a69fa844a974ffb8cbf304b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 5e311c916a69fa844a974ffb8cbf304b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -25013,6 +25180,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: bfe1989456ce4994a9db938bdef36983, type: 2}
+    - target: {fileID: -1504981713932161579, guid: 5e311c916a69fa844a974ffb8cbf304b,
+        type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: b78329df234ac064cb4ccd6c638c153e, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e311c916a69fa844a974ffb8cbf304b, type: 3}
 --- !u!4 &1278415503 stripped
@@ -25272,6 +25444,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SHELL1
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 304192692b5a25946984d2be9f59f28a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 304192692b5a25946984d2be9f59f28a,
         type: 3}
@@ -25732,6 +25909,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock3(Textured) (7)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: c128502a9a864f046a3df8e27472fb4e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: c128502a9a864f046a3df8e27472fb4e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -25927,6 +26109,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock3(Textured) (3)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: c128502a9a864f046a3df8e27472fb4e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: c128502a9a864f046a3df8e27472fb4e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -26020,7 +26207,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1326744543
 Transform:
@@ -26108,6 +26295,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock2(Textured) (1)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: b9d7bda1fafb38f49aa5a8808697cc55,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: b9d7bda1fafb38f49aa5a8808697cc55,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -26178,6 +26370,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 073d655536f4fbc48b0c2f245d79f6dc, type: 2}
+    - target: {fileID: -1504981713932161579, guid: b9d7bda1fafb38f49aa5a8808697cc55,
+        type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: b78329df234ac064cb4ccd6c638c153e, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b9d7bda1fafb38f49aa5a8808697cc55, type: 3}
 --- !u!4 &1330559772 stripped
@@ -26669,6 +26866,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock1(Textured) 1 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 5e311c916a69fa844a974ffb8cbf304b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 5e311c916a69fa844a974ffb8cbf304b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -26766,7 +26968,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1370429159
 Transform:
@@ -26806,7 +27008,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1370791036
 Transform:
@@ -26992,7 +27194,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1374669852
 Transform:
@@ -27058,7 +27260,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -27591,7 +27793,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1395570597
 Transform:
@@ -27789,6 +27991,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: STARFISH(uv)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 23eddefbb0841244b892ba64e1fdbb21,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 23eddefbb0841244b892ba64e1fdbb21,
         type: 3}
@@ -28251,6 +28458,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock1(Textured) 1 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 5e311c916a69fa844a974ffb8cbf304b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 5e311c916a69fa844a974ffb8cbf304b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -28321,6 +28533,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 377c5a0cec136694798612e8dc16f332, type: 2}
+    - target: {fileID: -1504981713932161579, guid: 5e311c916a69fa844a974ffb8cbf304b,
+        type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: b78329df234ac064cb4ccd6c638c153e, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e311c916a69fa844a974ffb8cbf304b, type: 3}
 --- !u!4 &1415797631 stripped
@@ -28769,6 +28986,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock3(Textured) (2)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: c128502a9a864f046a3df8e27472fb4e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: c128502a9a864f046a3df8e27472fb4e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -28996,7 +29218,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1459328701
 Transform:
@@ -29218,7 +29440,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!108 &1469490079
 Light:
@@ -29270,7 +29492,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -29340,7 +29562,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!108 &1481701743
 Light:
@@ -29392,7 +29614,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -29587,6 +29809,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SHELL1
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 304192692b5a25946984d2be9f59f28a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 304192692b5a25946984d2be9f59f28a,
         type: 3}
@@ -29808,7 +30035,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1501988611
 Transform:
@@ -30027,6 +30254,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock1(Textured) (1)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d825766c5ccd35c4a8491d613ca97af0,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: d825766c5ccd35c4a8491d613ca97af0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -30102,6 +30334,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 77c1201694d665340a405f4e9d3fcb75, type: 2}
+    - target: {fileID: -1504981713932161579, guid: d825766c5ccd35c4a8491d613ca97af0,
+        type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: b78329df234ac064cb4ccd6c638c153e, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d825766c5ccd35c4a8491d613ca97af0, type: 3}
 --- !u!4 &1513247566 stripped
@@ -30860,6 +31097,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock2(Textured) (1)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: b9d7bda1fafb38f49aa5a8808697cc55,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: b9d7bda1fafb38f49aa5a8808697cc55,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -30983,6 +31225,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Crystal4(uv) (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 7fc42b0c07b427942bc0990c58f37380,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 7fc42b0c07b427942bc0990c58f37380,
         type: 3}
@@ -31379,6 +31626,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Crystal4(uv)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 7fc42b0c07b427942bc0990c58f37380,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 7fc42b0c07b427942bc0990c58f37380,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -31634,7 +31886,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1606691153
 Transform:
@@ -31700,7 +31952,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -32165,6 +32417,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Crystal6(uv) (2)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: f084b0381f4fb2849840df7a68ac5671,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: f084b0381f4fb2849840df7a68ac5671,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -32287,7 +32544,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1645719748
 Transform:
@@ -32353,7 +32610,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -32374,6 +32631,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Rock3(Textured) (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: c128502a9a864f046a3df8e27472fb4e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: c128502a9a864f046a3df8e27472fb4e,
         type: 3}
@@ -34383,7 +34645,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1680119417
 Transform:
@@ -34470,6 +34732,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Crystal3(uv)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d3bdd6620eff2384e850b798f2a27474,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: d3bdd6620eff2384e850b798f2a27474,
         type: 3}
@@ -34811,6 +35078,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ROCK3 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 4c6d69525463b9a428a1621e5cc4f107,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 4c6d69525463b9a428a1621e5cc4f107,
         type: 3}
@@ -35170,6 +35442,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock1(Textured) (2)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d825766c5ccd35c4a8491d613ca97af0,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: d825766c5ccd35c4a8491d613ca97af0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -35245,6 +35522,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: bfe1989456ce4994a9db938bdef36983, type: 2}
+    - target: {fileID: -1504981713932161579, guid: d825766c5ccd35c4a8491d613ca97af0,
+        type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: b78329df234ac064cb4ccd6c638c153e, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d825766c5ccd35c4a8491d613ca97af0, type: 3}
 --- !u!4 &1706288230 stripped
@@ -35579,6 +35861,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Crystal1(uv) (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 7eaf7f364c6228349b8f098fdebe3c37,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 7eaf7f364c6228349b8f098fdebe3c37,
         type: 3}
@@ -36054,7 +36341,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1747028877
 Transform:
@@ -36120,7 +36407,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -36447,7 +36734,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1763247524
 Transform:
@@ -36534,6 +36821,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ROCK1
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 326df2e911c5afb4191d8d85d0c2365e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: -5178661895559278292, guid: 326df2e911c5afb4191d8d85d0c2365e,
         type: 3}
@@ -36956,7 +37248,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1780987557
 Transform:
@@ -37380,7 +37672,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1793479111
 Transform:
@@ -37502,7 +37794,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1795113850
 Transform:
@@ -37517,7 +37809,6 @@ Transform:
   m_Children:
   - {fileID: 1495630026}
   - {fileID: 1396949334}
-  - {fileID: 38703217}
   m_Father: {fileID: 413246832}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -37532,6 +37823,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Rock3(Textured) (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: c128502a9a864f046a3df8e27472fb4e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: c128502a9a864f046a3df8e27472fb4e,
         type: 3}
@@ -42544,7 +42840,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1838197994
 Transform:
@@ -42635,7 +42931,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1844662359
 Transform:
@@ -43576,6 +43872,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock3(Textured)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: c128502a9a864f046a3df8e27472fb4e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: c128502a9a864f046a3df8e27472fb4e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -43670,6 +43971,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Rock3(Textured) (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: c128502a9a864f046a3df8e27472fb4e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: c128502a9a864f046a3df8e27472fb4e,
         type: 3}
@@ -43877,6 +44183,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock1(Textured)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d825766c5ccd35c4a8491d613ca97af0,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: d825766c5ccd35c4a8491d613ca97af0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -44007,7 +44318,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1926585107
 Transform:
@@ -44073,7 +44384,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -44530,6 +44841,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: CRYSTALBASE
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: edb5a83ff290ba048acdc56d039972e3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: edb5a83ff290ba048acdc56d039972e3,
         type: 3}
@@ -45345,114 +45661,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1979184685}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &1981430403
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1795113850}
-    m_Modifications:
-    - target: {fileID: -927199367670048503, guid: ff06d4e056b87954998912fdf41fd11c,
-        type: 3}
-      propertyPath: m_Name
-      value: MANTARAY(uv)
-      objectReference: {fileID: 0}
-    - target: {fileID: -6686056005834992781, guid: ff06d4e056b87954998912fdf41fd11c,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: e7c599fea09382a4fbc62da9d4efa065, type: 2}
-    - target: {fileID: -6686056005834992781, guid: ff06d4e056b87954998912fdf41fd11c,
-        type: 3}
-      propertyPath: m_Materials.Array.data[1]
-      value: 
-      objectReference: {fileID: 2100000, guid: b78329df234ac064cb4ccd6c638c153e, type: 2}
-    - target: {fileID: -4216859302048453862, guid: ff06d4e056b87954998912fdf41fd11c,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 4.7005844
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: ff06d4e056b87954998912fdf41fd11c,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 20.837166
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: ff06d4e056b87954998912fdf41fd11c,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -2.2510605
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: ff06d4e056b87954998912fdf41fd11c,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: ff06d4e056b87954998912fdf41fd11c,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0.57448316
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: ff06d4e056b87954998912fdf41fd11c,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: ff06d4e056b87954998912fdf41fd11c,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.81851643
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: ff06d4e056b87954998912fdf41fd11c,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: ff06d4e056b87954998912fdf41fd11c,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: ff06d4e056b87954998912fdf41fd11c,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: -70.12701
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: ff06d4e056b87954998912fdf41fd11c,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: ff06d4e056b87954998912fdf41fd11c,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 19.483007
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: ff06d4e056b87954998912fdf41fd11c,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 19.483
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: ff06d4e056b87954998912fdf41fd11c,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 19.483007
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: ff06d4e056b87954998912fdf41fd11c, type: 3}
---- !u!4 &1981430404
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 1981430403}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1115252149}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 38703217}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1987222844
 GameObject:
   m_ObjectHideFlags: 0
@@ -45587,7 +45795,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1997027735
 Transform:
@@ -45653,7 +45861,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -46127,6 +46335,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock1(Textured) 1
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 5e311c916a69fa844a974ffb8cbf304b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 5e311c916a69fa844a974ffb8cbf304b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -46353,6 +46566,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ROCK1 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 326df2e911c5afb4191d8d85d0c2365e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: -5178661895559278292, guid: 326df2e911c5afb4191d8d85d0c2365e,
         type: 3}
       propertyPath: m_Mesh
@@ -46458,6 +46676,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Crystal7(uv) (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d1b4d0f4867bbb84fb074b355da8ab33,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: d1b4d0f4867bbb84fb074b355da8ab33,
         type: 3}
@@ -46638,6 +46861,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Rock2(Textured)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: b9d7bda1fafb38f49aa5a8808697cc55,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: b9d7bda1fafb38f49aa5a8808697cc55,
         type: 3}
@@ -47479,6 +47707,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock3(Textured) (12)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: c128502a9a864f046a3df8e27472fb4e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: c128502a9a864f046a3df8e27472fb4e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -48223,7 +48456,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!64 &2099691396
 MeshCollider:
@@ -48468,7 +48701,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2104311209
 Transform:
@@ -48534,7 +48767,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -49138,6 +49371,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock2(Textured)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: b9d7bda1fafb38f49aa5a8808697cc55,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: b9d7bda1fafb38f49aa5a8808697cc55,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -49213,6 +49451,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 073d655536f4fbc48b0c2f245d79f6dc, type: 2}
+    - target: {fileID: -1504981713932161579, guid: b9d7bda1fafb38f49aa5a8808697cc55,
+        type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: b78329df234ac064cb4ccd6c638c153e, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b9d7bda1fafb38f49aa5a8808697cc55, type: 3}
 --- !u!4 &2126077616 stripped
@@ -49545,7 +49788,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!64 &2147152785
 MeshCollider:
