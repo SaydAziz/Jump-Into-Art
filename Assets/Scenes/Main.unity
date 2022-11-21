@@ -3969,7 +3969,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MyAnimationController: {fileID: 124978839}
-  clip: {fileID: 0}
+  clip: {fileID: 291507223}
 --- !u!1 &232875372
 GameObject:
   m_ObjectHideFlags: 0
@@ -9267,26 +9267,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 718466725}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &448196032 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2875205191974719260, guid: c95da8e0ce4ea2b488e1469b3f4cadb3,
-    type: 3}
-  m_PrefabInstance: {fileID: 241527256}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &448196033
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 448196032}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1a95c7588b52b50449c923fe2b0299d2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  MyAnimationController: {fileID: 0}
-  clip: {fileID: 0}
 --- !u!4 &448843744 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 94f7c07aae2ffb64ab8139adf143dfb6,
@@ -32119,7 +32099,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MyAnimationController: {fileID: 10939663}
-  clip: {fileID: 0}
+  clip: {fileID: 291507223}
 --- !u!1001 &1513247565
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -32420,7 +32400,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MyAnimationController: {fileID: 145522472}
-  clip: {fileID: 0}
+  clip: {fileID: 291507223}
 --- !u!1001 &1531217270
 PrefabInstance:
   m_ObjectHideFlags: 0
