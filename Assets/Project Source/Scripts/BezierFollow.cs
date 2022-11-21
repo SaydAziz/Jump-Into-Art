@@ -17,32 +17,70 @@ public class BezierFollow : MonoBehaviour
 
     private bool coroutineAllowed;
 
+    private Transform spawnPoint;
+    private Transform playerPosition;
+    private Transform gameSpawn;
+    
+
     [SerializeField]
-    private bool isMoving; 
+    private bool isMoving;
+
+    // Time script
+    public float TimeLeft;
+    public bool TimerOn = false;
+
 
     // Start is called before the first frame update
     void Start()
     {
+        TimerOn = true;
         routeToGo = 0;
         tParam = 0f;
         speedModifier = 0.1f;
-        coroutineAllowed = true;
+        coroutineAllowed = false;
         isMoving = false; 
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (coroutineAllowed)
+        if(TimerOn)
+        {
+            if(TimeLeft > 0)
+            {
+                TimeLeft -= Time.deltaTime;
+                updateTimer(TimeLeft);
+
+                coroutineAllowed = false;
+            }
+            else
+            {
+                Debug.Log("Time is up, transition spawn");
+                TimeLeft = 0;
+                TimerOn = false;
+
+                coroutineAllowed = true; 
+            }
+        }
+
+        if (coroutineAllowed == true)
         {
             StartCoroutine(GoByTheRoute(routeToGo));
             isMoving = true;
         }
-        if (isMoving)
+        if (coroutineAllowed == false)
         {
-
+            isMoving = false;
         }
 
+    }
+
+    void updateTimer(float currentTime)
+    {
+        currentTime += 1;
+
+        float minutes = Mathf.FloorToInt(currentTime / 60);
+        float seconds = Mathf.FloorToInt(currentTime % 60);
     }
 
     private IEnumerator GoByTheRoute(int routeNum)
