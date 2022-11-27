@@ -1,11 +1,11 @@
 fileFormatVersion: 2
-guid: 782b20866c9eb0b48877cae585342856
+guid: 3d4f5a0776328794fa91336e2c52ce17
 ModelImporter:
   serializedVersion: 25
   internalIDToNameTable:
   - first:
       74: 1827226128182048838
-    second: Whale(2)JumpAnim
+    second: Take 001
   externalObjects: {}
   materials:
     importMaterials: 0
@@ -35,7 +35,7 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Whale(2)JumpAnim
+      name: Take 001
       takeName: Take 001
       internalID: 1827226128182048838
       firstFrame: 1
@@ -69,7 +69,7 @@ ModelImporter:
     globalScale: 14
     meshCompression: 0
     addColliders: 0
-    useSRGBMaterialColor: 0
+    useSRGBMaterialColor: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
@@ -112,7 +112,7 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 14
+    globalScale: 0.14
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
