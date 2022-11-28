@@ -21,9 +21,9 @@ public class SoundManager : MonoBehaviour
         }
     }
 
-    public void PlaySound(AudioSource clip)
+    public void PlaySound(AudioSource clip, int delay)
     {
-        clip.Play();
+        clip.PlayDelayed(delay);
     }
 
     public void SwitchSong(AudioClip clip)
