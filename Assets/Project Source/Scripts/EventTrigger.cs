@@ -12,12 +12,9 @@ public class EventTrigger : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player"))
-        {
             //Changes boolean to true to start animation
             MyAnimationController.SetBool("isPlaying", true);
             SoundManager.Instance.PlaySound(clip);
-        }
        
     }
 
