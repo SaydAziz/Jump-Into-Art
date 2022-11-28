@@ -16351,6 +16351,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cave1
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: b261f85410559904081b8171e909c6ae,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: b261f85410559904081b8171e909c6ae,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -27138,8 +27143,8 @@ Transform:
   - {fileID: 1745718409}
   - {fileID: 1616639041}
   - {fileID: 805342669}
-  - {fileID: 262501720}
   - {fileID: 1866702708}
+  - {fileID: 262501720}
   m_Father: {fileID: 1963080509}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -37181,7 +37186,7 @@ PrefabInstance:
     - target: {fileID: 1260162969423114810, guid: 22276a8657744e04cba8ad0a2caf4195,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.66
+      value: 3.677
       objectReference: {fileID: 0}
     - target: {fileID: 1260162969423114810, guid: 22276a8657744e04cba8ad0a2caf4195,
         type: 3}
