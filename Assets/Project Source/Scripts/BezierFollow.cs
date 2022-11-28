@@ -20,6 +20,9 @@ public class BezierFollow : MonoBehaviour
     private Transform spawnPoint;
     private Transform playerPosition;
     private Transform gameSpawn;
+
+    [SerializeField]
+    private GameObject boat;
     
 
     [SerializeField]
@@ -58,7 +61,7 @@ public class BezierFollow : MonoBehaviour
                 Debug.Log("Time is up, transition spawn");
                 TimeLeft = 0;
                 TimerOn = false;
-
+                boat.SetActive(true);
                 coroutineAllowed = true; 
             }
         }

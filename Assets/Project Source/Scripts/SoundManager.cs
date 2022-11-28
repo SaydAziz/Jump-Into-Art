@@ -25,4 +25,10 @@ public class SoundManager : MonoBehaviour
     {
         clip.Play();
     }
+
+    public void SwitchSong(AudioClip clip)
+    {
+        MusicSource.clip = clip;
+        MusicSource.Play();
+    }
 }
