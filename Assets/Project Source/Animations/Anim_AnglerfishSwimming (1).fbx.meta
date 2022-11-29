@@ -1,11 +1,11 @@
 fileFormatVersion: 2
-guid: 836394ed5385c1443a909bb31662ff8b
+guid: 437d40fc3d1d42c4fa721e1c7778d443
 ModelImporter:
   serializedVersion: 25
   internalIDToNameTable:
   - first:
-      74: 4408128001947191512
-    second: SeahorseAnim
+      74: 6461860488627723379
+    second: AnglerfishSwimming
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -35,11 +35,11 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: SeahorseAnim
-      takeName: SeahorseAnim
-      internalID: 4408128001947191512
-      firstFrame: 0
-      lastFrame: 300
+      name: AnglerfishSwimming
+      takeName: AnglerfishSwimming
+      internalID: 6461860488627723379
+      firstFrame: 1
+      lastFrame: 25
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -66,7 +66,7 @@ ModelImporter:
     isReadable: 0
   meshes:
     lODScreenPercentages: []
-    globalScale: 1
+    globalScale: 20
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
@@ -112,7 +112,7 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 1
+    globalScale: 0.19999999
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
