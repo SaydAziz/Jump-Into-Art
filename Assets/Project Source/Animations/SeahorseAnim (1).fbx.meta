@@ -1,11 +1,11 @@
 fileFormatVersion: 2
-guid: 6ad5aed23e227d94f97ac89eb05dcaee
+guid: a64f66d19dc7ace48b50e6dffeb76b2e
 ModelImporter:
   serializedVersion: 25
   internalIDToNameTable:
   - first:
-      74: 1827226128182048838
-    second: Take 001
+      74: 4408128001947191512
+    second: SeahorseAnim
   externalObjects: {}
   materials:
     importMaterials: 0
@@ -35,9 +35,9 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Take 001
-      takeName: Take 001
-      internalID: 1827226128182048838
+      name: SeahorseAnim
+      takeName: SeahorseAnim
+      internalID: 4408128001947191512
       firstFrame: 0
       lastFrame: 300
       wrapMode: 0
@@ -46,7 +46,7 @@ ModelImporter:
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 1
+      loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
@@ -112,7 +112,7 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 0.1
+    globalScale: 0.001
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
