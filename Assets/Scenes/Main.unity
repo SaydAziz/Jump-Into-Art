@@ -67154,16 +67154,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 4
       objectReference: {fileID: 0}
-    - target: {fileID: 5451730483362950795, guid: 9005f06d2cc7234449f1dd96c746406f,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 86dc40ffd15aef545a0f4882417a66a2, type: 2}
     - target: {fileID: -6057140222963153312, guid: 9005f06d2cc7234449f1dd96c746406f,
         type: 3}
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: f53ed9676c72d5f448c1592a68927233, type: 2}
+    - target: {fileID: 5451730483362950795, guid: 9005f06d2cc7234449f1dd96c746406f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 86dc40ffd15aef545a0f4882417a66a2, type: 2}
     - target: {fileID: -6153421641299227893, guid: 9005f06d2cc7234449f1dd96c746406f,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -67721,6 +67721,91 @@ Light:
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!1 &1995261320
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1995261321}
+  - component: {fileID: 1995261323}
+  - component: {fileID: 1995261322}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1995261321
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1995261320}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2000397841}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: -2}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1995261322
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1995261320}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 14
+    m_FontStyle: 1
+    m_BestFit: 1
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 1
+    m_AlignByGeometry: 0
+    m_RichText: 0
+    m_HorizontalOverflow: 1
+    m_VerticalOverflow: 1
+    m_LineSpacing: 1
+  m_Text: "  Jump Into Art Credits\n\n\n\n\nCreators:\n\n\n\nAdrian Leon\n\nAziz Saydaminov\n\nBrian
+    Kelley\n\nClaire Alves\n\nDenice Carrera\n\nDavid Figueroa\n\nEden Szopa\n\nEric
+    Godinez\n\nGursimar Virdi\n\nHerbert Chillis\n\nJoshua Chaffee\n\nJose Palencia\n\nKaveonna
+    Gamble\n\nMarco Pulido\n\nNoah Rivera\n\nPatryk Kijek\n\nRandall Stern\n\nSteven
+    Laskey\n\nWarren Hernandez\n\n\n\n\n\tAnd A Special Thanks To:\n\n\n\nBill Guschwan\n\nDamian
+    Moratti\n\n\n\n\n\n\nAnd To All Friends, Family, And Pets That Got Us Through
+    Tough Times And Serious Cries. \n\n        Truly, We Thank You Very Much"
+--- !u!222 &1995261323
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1995261320}
+  m_CullTransparentMesh: 0
 --- !u!1 &1997027734
 GameObject:
   m_ObjectHideFlags: 0
@@ -67878,6 +67963,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
+  - {fileID: 1995261321}
   - {fileID: 2143311656}
   m_Father: {fileID: 2109873786}
   m_RootOrder: 0
@@ -71503,7 +71589,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2000397841}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
