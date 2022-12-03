@@ -35,7 +35,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Crab2
-  m_Speed: 1
+  m_Speed: 0.2
   m_CycleOffset: 0
   m_Transitions: []
   m_StateMachineBehaviours: []
@@ -64,7 +64,7 @@ AnimatorStateMachine:
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: -4885152660523328220}
-    m_Position: {x: 280, y: 250, z: 0}
+    m_Position: {x: 320, y: 250, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -9173868469925656552}
     m_Position: {x: 321.7442, y: 151.27905, z: 0}
@@ -206,7 +206,7 @@ AnimatorStateMachine:
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: -4384365429441296365}
-    m_Position: {x: 352.67444, y: 208.72095, z: 0}
+    m_Position: {x: 320, y: 210, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 4556784541646989537}
     m_Position: {x: 330, y: 120, z: 0}
