@@ -7,16 +7,24 @@ public class EventTrigger : MonoBehaviour
     //Trigger Event
 
     //Variable to Hold Animation Controller
-    [SerializeField] private Animator MyAnimationController;
+    [SerializeField] private Animator AnimController;
+    [SerializeField] private ParticleSystem Particles;
     [SerializeField] private AudioSource clip;
     [SerializeField] private int soundDelay;
 
     private void OnTriggerEnter(Collider other)
     {
-            //Changes boolean to true to start animation
-            MyAnimationController.SetBool("isPlaying", true);
-            SoundManager.Instance.PlaySound(clip, soundDelay);
-       
+        if (AnimController != null)
+        {
+            AnimController.SetBool("isPlaying", true);
+        }
+        else
+        {
+            Particles.Play();
+        }
+
+        SoundManager.Instance.PlaySound(clip, soundDelay);
+
     }
 
 
