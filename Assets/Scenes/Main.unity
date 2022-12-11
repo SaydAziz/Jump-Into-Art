@@ -17144,7 +17144,35 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TimeLeft: 172
-  TimerOn: 0
+  TimerOn: 1
+--- !u!114 &283388539
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 283388530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 067e985e201c5eb458dce23265503bd3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FadeToClearTimeLeft: 11
+  FadeToClearTimerOn: 1
+--- !u!114 &283388540
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 283388530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74c61a289459e4a43bd3338888f8f193, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FadeToBlackTimeLeft: 9
+  FadeToBlackTimerOn: 1
 --- !u!1 &284861130
 GameObject:
   m_ObjectHideFlags: 0
