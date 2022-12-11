@@ -6,14 +6,43 @@ using Liminal.Core.Fader;
 public class EndExperience : MonoBehaviour
 {
 
-    private int fadeDuration = 10;
+    private int fadeDuration = 1;
 
-    private void OnTriggerEnter(Collider other)
-    { 
-    
-        var fader = ScreenFader.Instance;
-        fader.FadeTo(Color.black, fadeDuration);
+    public float TimeLeft;
+    public bool TimerOn = false;
 
-       // ExperienceApp.End();
+    private void Start()
+    {
+        TimerOn = true;
     }
+
+    private void Update()
+    {
+        if(TimerOn)
+        {
+            if(TimeLeft > 0)
+            {
+                TimeLeft -= Time.deltaTime;
+                updateTimer(TimeLeft);
+            }
+            else
+            {
+                Debug.Log("Screen Fade time is up.");
+                TimeLeft = 0;
+                TimerOn = false;
+
+                var fader = ScreenFader.Instance;
+                fader.FadeTo(Color.black, fadeDuration);
+            }
+        }
+    }
+
+    void updateTimer(float currentTime)
+    {
+        currentTime += 1;
+
+        float minutes = Mathf.FloorToInt(currentTime / 60);
+        float seconds = Mathf.FloorToInt(currentTime % 60);
+    }
+
 }
