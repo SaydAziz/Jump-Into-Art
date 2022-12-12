@@ -17111,7 +17111,7 @@ AudioSource:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 262873173}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 8a8c57d9b1630ac48a1c9d5975f18464, type: 3}
@@ -51568,25 +51568,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1239721705}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1241855722 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2875205191974719260, guid: c95da8e0ce4ea2b488e1469b3f4cadb3,
-    type: 3}
-  m_PrefabInstance: {fileID: 870554527}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1241855726
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1241855722}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4db35024b61d1946af0e3c1f245b0f5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Song: {fileID: 8300000, guid: 6a42c8039d2b575438e81f090f26c18a, type: 3}
 --- !u!137 &1243281962 stripped
 SkinnedMeshRenderer:
   m_CorrespondingSourceObject: {fileID: -7029315119353495126, guid: 9005f06d2cc7234449f1dd96c746406f,
@@ -52572,7 +52553,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: df284ccf95d16d242b9f88c4133aaf2d, type: 3}
+  m_audioClip: {fileID: 8300000, guid: a6739c186440a764b88d9e77072aa61e, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -79972,19 +79953,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 641358431}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1798074226
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1798074225}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4db35024b61d1946af0e3c1f245b0f5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Song: {fileID: 8300000, guid: bfb9a5bd01f3d5e4fb390bb2f8690b3e, type: 3}
 --- !u!114 &1798074229
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -93688,7 +93656,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 3debe0b40530a6a48ae45019d09ea1b3, type: 3}
+  m_audioClip: {fileID: 8300000, guid: abaa5380a5930f64c844df77cc5a322f, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
