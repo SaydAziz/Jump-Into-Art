@@ -80580,7 +80580,7 @@ MonoBehaviour:
   AnimController: {fileID: 2084597588}
   Particles: {fileID: 0}
   clip: {fileID: 266520922}
-  soundDelay: 0
+  soundDelay: 1
 --- !u!114 &1798074230
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -80612,7 +80612,7 @@ MonoBehaviour:
   AnimController: {fileID: 1729215501}
   Particles: {fileID: 0}
   clip: {fileID: 657105264}
-  soundDelay: 0
+  soundDelay: 1
 --- !u!1001 &1801102175
 PrefabInstance:
   m_ObjectHideFlags: 0
