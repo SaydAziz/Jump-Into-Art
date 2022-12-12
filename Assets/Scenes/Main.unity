@@ -1495,27 +1495,12 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
-    - target: {fileID: -4379411213387531774, guid: 57e07b2d12f0d374cbaf9be626e2529d,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: -2449253498257962602, guid: 57e07b2d12f0d374cbaf9be626e2529d,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 8450759905325130905, guid: 57e07b2d12f0d374cbaf9be626e2529d,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 5587807215338308395, guid: 57e07b2d12f0d374cbaf9be626e2529d,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: -6581041025168474491, guid: 57e07b2d12f0d374cbaf9be626e2529d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: -4379411213387531774, guid: 57e07b2d12f0d374cbaf9be626e2529d,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -1590,6 +1575,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 25.036037
       objectReference: {fileID: 0}
+    - target: {fileID: -2449253498257962602, guid: 57e07b2d12f0d374cbaf9be626e2529d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 330708324486205603, guid: 57e07b2d12f0d374cbaf9be626e2529d,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -1600,7 +1590,17 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 77c1201694d665340a405f4e9d3fcb75, type: 2}
+    - target: {fileID: 5587807215338308395, guid: 57e07b2d12f0d374cbaf9be626e2529d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 6292535884062368016, guid: 57e07b2d12f0d374cbaf9be626e2529d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 8450759905325130905, guid: 57e07b2d12f0d374cbaf9be626e2529d,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -17111,7 +17111,7 @@ AudioSource:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 262873173}
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 8a8c57d9b1630ac48a1c9d5975f18464, type: 3}
@@ -29960,11 +29960,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Milferd
       objectReference: {fileID: 0}
-    - target: {fileID: -7780734103960978560, guid: a63cfeb07d3015f4ea4eb3954bda05bb,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: cfde69a2626de6b4da5b110bcfff71e9, type: 2}
     - target: {fileID: -4216859302048453862, guid: a63cfeb07d3015f4ea4eb3954bda05bb,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -30040,6 +30035,11 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: dc0c26134baeae741bbedb25aee131b5, type: 2}
+    - target: {fileID: -7780734103960978560, guid: a63cfeb07d3015f4ea4eb3954bda05bb,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: cfde69a2626de6b4da5b110bcfff71e9, type: 2}
     - target: {fileID: -304430931267821424, guid: a63cfeb07d3015f4ea4eb3954bda05bb,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -31854,11 +31854,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Milferd5
       objectReference: {fileID: 0}
-    - target: {fileID: -7780734103960978560, guid: a63cfeb07d3015f4ea4eb3954bda05bb,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: cfde69a2626de6b4da5b110bcfff71e9, type: 2}
     - target: {fileID: -4216859302048453862, guid: a63cfeb07d3015f4ea4eb3954bda05bb,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -31934,6 +31929,11 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 8453df0a12f70cf42a9c394663051230, type: 2}
+    - target: {fileID: -7780734103960978560, guid: a63cfeb07d3015f4ea4eb3954bda05bb,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: cfde69a2626de6b4da5b110bcfff71e9, type: 2}
     - target: {fileID: -304430931267821424, guid: a63cfeb07d3015f4ea4eb3954bda05bb,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -44696,11 +44696,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Milferd3
       objectReference: {fileID: 0}
-    - target: {fileID: -7780734103960978560, guid: a63cfeb07d3015f4ea4eb3954bda05bb,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: cfde69a2626de6b4da5b110bcfff71e9, type: 2}
     - target: {fileID: -4216859302048453862, guid: a63cfeb07d3015f4ea4eb3954bda05bb,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -44776,6 +44771,11 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 702c54002b42e1e4e9eaf0021f7f0d59, type: 2}
+    - target: {fileID: -7780734103960978560, guid: a63cfeb07d3015f4ea4eb3954bda05bb,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: cfde69a2626de6b4da5b110bcfff71e9, type: 2}
     - target: {fileID: -304430931267821424, guid: a63cfeb07d3015f4ea4eb3954bda05bb,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -46277,11 +46277,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Milferd4
       objectReference: {fileID: 0}
-    - target: {fileID: -7780734103960978560, guid: a63cfeb07d3015f4ea4eb3954bda05bb,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: cfde69a2626de6b4da5b110bcfff71e9, type: 2}
     - target: {fileID: -4216859302048453862, guid: a63cfeb07d3015f4ea4eb3954bda05bb,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -46357,6 +46352,11 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 1bf3158f63999f14ba3395e81f0c6c3c, type: 2}
+    - target: {fileID: -7780734103960978560, guid: a63cfeb07d3015f4ea4eb3954bda05bb,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: cfde69a2626de6b4da5b110bcfff71e9, type: 2}
     - target: {fileID: -304430931267821424, guid: a63cfeb07d3015f4ea4eb3954bda05bb,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -51568,6 +51568,25 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1239721705}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1241855722 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2875205191974719260, guid: c95da8e0ce4ea2b488e1469b3f4cadb3,
+    type: 3}
+  m_PrefabInstance: {fileID: 870554527}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1241855726
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1241855722}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4db35024b61d1946af0e3c1f245b0f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Song: {fileID: 8300000, guid: 6a42c8039d2b575438e81f090f26c18a, type: 3}
 --- !u!137 &1243281962 stripped
 SkinnedMeshRenderer:
   m_CorrespondingSourceObject: {fileID: -7029315119353495126, guid: 9005f06d2cc7234449f1dd96c746406f,
@@ -79749,6 +79768,19 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 641358431}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1798074226
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1798074225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4db35024b61d1946af0e3c1f245b0f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Song: {fileID: 8300000, guid: bfb9a5bd01f3d5e4fb390bb2f8690b3e, type: 3}
 --- !u!114 &1798074229
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -86364,11 +86396,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Milferd2
       objectReference: {fileID: 0}
-    - target: {fileID: -7780734103960978560, guid: a63cfeb07d3015f4ea4eb3954bda05bb,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: cfde69a2626de6b4da5b110bcfff71e9, type: 2}
     - target: {fileID: -4216859302048453862, guid: a63cfeb07d3015f4ea4eb3954bda05bb,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -86444,6 +86471,11 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: f7d7f6d5ea0c7fe4194cc4251de0a4db, type: 2}
+    - target: {fileID: -7780734103960978560, guid: a63cfeb07d3015f4ea4eb3954bda05bb,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: cfde69a2626de6b4da5b110bcfff71e9, type: 2}
     - target: {fileID: -304430931267821424, guid: a63cfeb07d3015f4ea4eb3954bda05bb,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -93452,7 +93484,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 8e427974e1f8f43459788303189512b5, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 3debe0b40530a6a48ae45019d09ea1b3, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
