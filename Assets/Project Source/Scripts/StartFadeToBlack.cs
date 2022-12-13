@@ -10,10 +10,21 @@ public class StartFadeToBlack : MonoBehaviour
 
     public float FadeToBlackTimeLeft;
     public bool FadeToBlackTimerOn = false;
+    [SerializeField] private AudioSource clip;
+    [SerializeField] private int soundDelay;
 
     private void Start()
     {
         FadeToBlackTimerOn = true;
+
+        if (clip != null)
+        {
+
+        }
+        else
+        {
+            clip = null;
+        }
     }
 
     private void Update()
@@ -25,12 +36,13 @@ public class StartFadeToBlack : MonoBehaviour
                 FadeToBlackTimeLeft -= Time.deltaTime;
                 updateTimer(FadeToBlackTimeLeft);
             }
+           
             else
             {
                 Debug.Log("Screen Fade time is up.");
                 FadeToBlackTimeLeft = 0;
                 FadeToBlackTimerOn = false;
-
+                SoundManager.Instance.PlaySound(clip, soundDelay);
                 var fader = ScreenFader.Instance;
                 fader.FadeTo(Color.black, fadeDuration);
             }

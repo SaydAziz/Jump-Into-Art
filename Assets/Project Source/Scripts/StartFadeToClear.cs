@@ -10,10 +10,21 @@ public class StartFadeToClear : MonoBehaviour
 
     public float FadeToClearTimeLeft;
     public bool FadeToClearTimerOn = false;
+    [SerializeField] private AudioSource clip;
+    [SerializeField] private int soundDelay;
 
     private void Start()
     {
         FadeToClearTimerOn = true;
+
+        if (clip != null)
+        {
+            
+        }
+        else
+        {
+            clip = null;
+        }
     }
 
     private void Update()
@@ -25,11 +36,13 @@ public class StartFadeToClear : MonoBehaviour
                 FadeToClearTimeLeft -= Time.deltaTime;
                 updateTimer(FadeToClearTimeLeft);
             }
+           
             else
             {
                 Debug.Log("Screen Fade time is up.");
                 FadeToClearTimeLeft = 0;
                 FadeToClearTimerOn = false;
+                SoundManager.Instance.PlaySound(clip, soundDelay);
 
                 var fader = ScreenFader.Instance;
                 fader.FadeTo(Color.clear, fadeDuration);
